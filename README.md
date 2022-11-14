@@ -32,3 +32,21 @@ When he grabs or releases a box near to the gold box, he adds them to a list of 
 
 **Pseudocode**
 ============================
+``` 
+create a list empty of doneBox in the arena
+while simulation is running
+  allBox = scanMap()
+  if allBox is empty
+    exit
+   find nearest silver box
+   allign to it
+   go to it
+   grab it
+   insert it in the doneBox list
+   allBox = scanMap()
+   find the nearest gold box
+   allign to it
+   go to it
+   release the silver box near the gold box
+   insert the gold box in the donebox list
+   ```
