@@ -33,7 +33,7 @@ When he grabs or releases a box near to the gold box, he adds them to a list of 
 **Pseudocode**
 ============================
 ``` 
-create a list empty of doneBox in the arena
+doneBox = empty list
 while simulation is running
   allBox = scanMap()
   if allBox is empty
