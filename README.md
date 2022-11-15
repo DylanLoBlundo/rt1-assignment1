@@ -16,7 +16,7 @@ The robot must take silver box and put it near to the gold box.
 ============================
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
-Simply launch the file "start"
+To start the program just need to launch the file "start"
 
 **Description**
 ============================
