@@ -38,15 +38,15 @@ while simulation is running
   allBox = scanMap()
   if allBox is empty
     exit
-   find nearest silver box
-   allign to it
-   go to it
-   grab it
-   insert it in the doneBox list
-   allBox = scanMap()
-   find the nearest gold box
-   allign to it
-   go to it
-   release the silver box near the gold box
-   insert the gold box in the donebox list
-   ```
+  find nearest silver box
+  allign to it
+  go to it
+  grab it
+  insert it in the doneBox list
+  allBox = scanMap()
+  find the nearest gold box
+  allign to it
+  go to it
+  release the silver box near the gold box
+  insert the gold box in the donebox list
+  ```
